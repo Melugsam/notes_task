@@ -1,30 +1,23 @@
 # Приложение Заметки
 ## Как запустить проект
 
-Убедитесь, что установлен Flutter и все необходимые к нему компоненты
-Чтобы проверить, что все установлено
-flutter doctor
+Убедитесь, что установлен Flutter и все необходимые к нему компоненты. Чтобы проверить, что все установлено: flutter doctor
 
-Установить зависимости
-flutter pub get
+Установить зависимости: flutter pub get
 
-Запуск:
-
-Android
-Убедитесь, что у вас установлен Android SDK и эмулятор или реальное устройство
-Выполните команду:
+#### Android
+Убедитесь, что у вас установлен Android SDK и эмулятор или реальное устройство. Выполните команду:
 flutter run -d android
 
-Web
-Убедитесь, что у вас установлен Chrome или другой поддерживаемый браузер
-Выполните команду:
+#### Web
+Убедитесь, что у вас установлен Chrome или другой поддерживаемый браузер. Выполните команду:
 flutter run -d chrome
 
 ## Архитектурные подходы
-Clean Architecture
-Bloc — управление состоянием и бизнес-логикой
-Dependency Injection через get_it — для подключения репозиториев, источников данных и shared_preferences
-Freezed — для моделей и иммутабельности (Note, NoteModel)
+- Clean Architecture
+- Bloc — управление состоянием и бизнес-логикой
+- Dependency Injection через get_it — для подключения репозиториев, источников данных и shared_preferences
+- Freezed — для моделей и иммутабельности (Note, NoteModel)
 
 ## Что реализовано
 - Главный экран со списком заметок (с адаптивной сеткой)
@@ -41,15 +34,19 @@ Freezed — для моделей и иммутабельности (Note, NoteM
 ## Комментарий
 Принято решение использовать shared_preferences, поскольку Isar более не поддерживается, гит хаб топик на эту тему: https://github.com/isar/isar/issues/1689
 
-![1.png](images/1.png)  
-![2.png](images/2.png)  
-![3.png](images/3.png)  
-![4.png](images/4.png)  
-![5.png](images/5.png)  
-![6.png](images/6.png)  
-![7.png](images/7.png)  
-![8.png](images/8.png)  
-![9.png](images/9.png)  
-![10.png](images/10.png)  
-![11.png](images/11.png)  
-![12.png](images/12.png)
+## Скрины приложения
+
+<img src="images/1.png" width="400"/>
+<img src="images/2.png" width="400"/>
+<img src="images/3.png" width="400"/>
+<img src="images/4.png" width="400"/>
+<img src="images/5.png" width="400"/>
+<img src="images/6.png" width="400"/>
+<img src="images/7.png" width="400"/>
+<img src="images/8.png" width="400"/>
+<img src="images/9.png" width="400"/>
+<img src="images/10.png" width="400"/>
+<img src="images/11.png" width="400"/>
+<img src="images/12.png" width="400"/>
+
+
