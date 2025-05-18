@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:notes_task/core/injector/di.dart';
 import 'package:notes_task/features/notes/domain/entities/note.dart';
 import 'package:notes_task/features/notes/presentation/bloc/notes/notes_bloc.dart';
-import 'package:notes_task/features/notes/presentation/note_edit/note_edit_bloc.dart';
+import 'package:notes_task/features/notes/presentation/bloc/note_edit/note_edit_bloc.dart';
 
 class NoteEditScreen extends StatefulWidget {
   final Note? initialNote;
